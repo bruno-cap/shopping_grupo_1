@@ -17,6 +17,10 @@
 				padding:0;
 				}
 			
+			main{
+				height:800px;
+			}
+			
 			header a{
 					 text-decoration:none;
 					 color:black;
@@ -28,13 +32,58 @@
 					border:1px solid black;
 			}
 			
+			main h1{
+						font-size:28px;
+						text-align:center;
+						margin-top:100px;
+						margin-bottom:100px;
+						
+			}
+			
+			.container{
+				padding:48px;
+				border:1px solid black;
+				margin-left:25%;
+				margin-right:25%;
+				margin-bottom:100px;
+			}
+			
+			.container ul{
+				list-style:none;
+				margin-left:25%;
+				margin-right:25%;
+			}
+			
+			.container ul li{
+				font-size:22px;
+				margin-bottom:50px;
+			}
+			
+			.container ul li a{
+				text-decoration:none; 
+				color:black;
+			}
+			
+			.container p{	
+							font-size:22px;
+							text-align:center
+			}
+			
+			footer{
+					border:1px solid black;
+					height:112px;
+				}
+				
+			footer p{
+				text-align:center;
+				padding-top:50px;
+			}
 		</style>
 	</head>
 	
 	<body>
 
 		<header>
-		
 			<a>Index</a>
 			<a>Aluguel</a>
 			<a>Fale Conosco</a>
@@ -45,14 +94,28 @@
 		</header>
 		
 		<main>
-		
-			<p>O InfoCena é um shopping cuja a atividade principal é a administração e a locação de stands, lojas e quiosques. A 
-			comercialização de produtos/serviços é de inteira responsabilidades dos lojistas.
-			Se você está em busca de um determinado produto faça sua procura na página de Produtos, escolha seu produto e 
-			clique para saber mais informações sobre ele e sobre a loja a qual ele está disponível.</p>
-			
+			<h1>Quem somos </h1>
+				<div class="container">
+					<p>O InfoCena é um shopping cuja a atividade principal é a administração e a locação de stands, lojas e quiosques. A 
+					comercialização de produtos/serviços é de inteira responsabilidades dos lojistas.
+					Se você está em busca de um determinado produto faça sua procura na página de Produtos, escolha seu produto e 
+					clique para saber mais informações sobre ele e sobre a loja a qual ele está disponível.</p>
+				</div>
+				
+				
+				<div class="container" style="border:none;">
+					<ul>
+						<li><a href="produtos.html">Faça sua procura na página de Produtos</a>
+						<li><a href="lojas.html">Sobre a loja a qual ele está disponível<a>
+					</ul>
+				</div>
+				
 		</main>
 		
+		
+		<footer>
+			<p>Footer da página </p>
+		</footer>
 	</body>
 	
 </html>
